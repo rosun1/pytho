@@ -1,0 +1,27 @@
+#Faulty calculator
+print("\n Enter the first number :")
+a = int(input())
+print("\n Enter the second number:")
+b = int(input())
+print("\n Enter the operator:")
+op = input()
+if a == 45 and b == 3 and op == '*':
+    print('555')
+elif a == 56 and b == 9 and op == '+':
+    print('77')
+elif a == 56 and b == 6 and op == '/':
+    print('4')
+elif op == '*':
+    c=a*b
+    print(c)
+elif op == '-':
+    a-b
+    print(a-b)
+elif op == '+':
+    a+b
+    print(a+b)
+elif op == '/':
+    a/b
+    print(a/b)
+else:
+    print("Math error")
